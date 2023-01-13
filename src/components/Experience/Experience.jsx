@@ -85,22 +85,22 @@ const Experience = () => {
               </article>
 
               {/* MongoDB  */}
-              <article className="experience__details">
+              {/* <article className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon"/>
                 <div>
                 <h4>MongoDB</h4>
                 <small className='text-light'>Intermediate</small>
                 </div>
-              </article>
+              </article> */}
 
               {/* GraphQl  */}
-              <article className="experience__details">
+              {/* <article className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon"/>
                 <div>
                 <h4>GraphQl</h4>
                 <small className='text-light'>Intermediate</small>
                 </div>
-              </article>
+              </article> */}
               
               {/* MySQL  */}
               <article className="experience__details">
@@ -112,22 +112,22 @@ const Experience = () => {
               </article>
 
               {/* REST  */}
-              <article className="experience__details">
+              {/* <article className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon"/>
                 <div>
                 <h4>REST</h4>
                 <small className='text-light'>Intermediate</small>
                 </div>
-              </article>
+              </article> */}
 
               {/* Django  */}
-              <article className="experience__details">
+              {/* <article className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon"/>
                 <div>
                 <h4>Django</h4>
                 <small className='text-light'>Basic</small>
                 </div>
-              </article>
+              </article> */}
             </div>
         </div>
       </div>

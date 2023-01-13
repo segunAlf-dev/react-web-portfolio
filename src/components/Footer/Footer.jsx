@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 import { BsInstagram, BsLinkedin } from 'react-icons/bs';
-import {SiCodewars} from 'react-icons/si'
+import {SiTwitter} from 'react-icons/si'
 
 const Footer = () => {
   return (
@@ -19,13 +19,13 @@ const Footer = () => {
 
 
     <div className="footer__socials" data-aos="fade-up" data-aos-anchor=".footer__container"  data-aos-duration='1600'>
-      <a href="https://www.linkedin.com/in/erifeoluwa-femi-ladiran/"><BsLinkedin/></a>
-      <a href="https://www.instagram.com/for_timi/"><BsInstagram/></a>
-      <a href="https://www.codewars.com/users/timicodes/"><SiCodewars/></a>
+      <a href="https://www.linkedin.com/in/segunalf/"><BsLinkedin/></a>
+      <a href="https://www.instagram.com/Banzyworld/"><BsInstagram/></a>
+      <a href="https://twitter.com/Banzyworld/"><SiTwitter/></a>
     </div>
 
     <div className="footer__copyright" data-aos="fade-up" data-aos-anchor=".footer__container"  data-aos-duration='1800'>
-      <small>&copy; Femi-Ladiran Erifeoluwa. All rights reserved</small>
+      <small>&copy; Segun Alofun. All rights reserved</small>
     </div>
    </footer>
   )

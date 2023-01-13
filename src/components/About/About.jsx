@@ -21,7 +21,7 @@ import {
 const About = () => {
   return (
     <section id='about'>
-      <h5 data-aos="fade-up" data-aos-anchor="#about"  data-aos-duration='900'>Unlock the mysteries of me</h5>
+      <h5 data-aos="fade-up" data-aos-anchor="#about"  data-aos-duration='900'>Get to know me a bit more</h5>
       <h2 data-aos="fade-up" data-aos-anchor="#about"  data-aos-duration='700'>About me</h2>
 
       <div className="container about__container">
@@ -51,33 +51,33 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             
-            {/* Experience  */}
+             {/* Experience  */}
             <article className="about__card" data-aos="fade-left" data-aos-anchor=".about__cards"  data-aos-duration="500">
                 <FaAward className='about__icon'/>
                 <h5>Experience</h5>
-                <small>4+ years Experience</small>
+                <small> 1+ Years Experience</small>
             </article>
 
             {/* Collaborators  */}
             <article className="about__card" data-aos="fade-left" data-aos-anchor=".about__cards"  data-aos-duration="700">
                 <FiUsers className='about__icon'/>
-                <h5>Collaborators</h5>
-                <small>30+ Worldwide</small>
+                <h5>Hackathons</h5>
+                <small>2+ Worldwide</small>
             </article>
 
             {/* Projects  */}
             <article className="about__card" data-aos="fade-left" data-aos-anchor=".about__cards"  data-aos-duration="900">
                 <BsClipboardCheck className='about__icon'/>
                 <h5>Projects</h5>
-                <small>50+ Completed projects</small>
+                <small>2+ Completed projects</small>
             </article>
           </div>
 
-           <p  data-aos="fade-up" data-aos-anchor=".about__content"  data-aos-duration="1000">
-               Hello, There. I'm Femi-Ladiran Erifeoluwa but everyone calls me Timi. <br />
-              I am a Full-Stack software Developer that specializes in building creative and intuitive full stack web applications.
+             <p  data-aos="fade-up" data-aos-anchor=".about__content"  data-aos-duration="1000">
+               Hello, There. I'm Segun Victor Alofun but everyone calls me Banzyworld. <br />
+              I am a Frontend Software Developer that specializes in building creative and intuitive frontend web applications.
               <br />
-            A soccer, piano, and outdoor activity enthusiast. interested in building full stack applications and working on ambitious projects and positive people. Let's build something useful together
+            A soccer, movie, and outdoor activity enthusiast. Interested in building full stack applications and working on ambitious projects and connecting with people. Let's build something useful together
            </p>
 
            <a href='#contact' className='btn btn-primary' data-aos="fade-up" data-aos-anchor=".about__content"  data-aos-duration="1200">Let's chat <FaTelegramPlane/></a>
