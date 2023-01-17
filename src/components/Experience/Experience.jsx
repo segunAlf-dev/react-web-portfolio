@@ -72,7 +72,7 @@ const Experience = () => {
 
         {/* BACKEND sKILLS */}
       
-        <div className="experence__backend" data-aos="fade-left" data-aos-anchor=".experience__container"  data-aos-duration="1200">
+        <div className="experence__backend" data-aos="fade-up" data-aos-anchor=".experience__container"  data-aos-duration="1200">
            <h3>Backend Development</h3>
             <div className="experience__content">
               {/* Node JS  */}
@@ -80,7 +80,15 @@ const Experience = () => {
                 <BsPatchCheckFill className="experience__details-icon"/>
                 <div>
                 <h4>Node JS</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+                   {/* PYTHON  */}
+              <article className="experience__details">
+                <BsPatchCheckFill className="experience__details-icon"/>
+                <div>
+                <h4>Python</h4>
+                <small className='text-light'>Beginner</small>
                 </div>
               </article>
 
@@ -130,7 +138,47 @@ const Experience = () => {
               </article> */}
             </div>
         </div>
+            {/* CLOUD SKILLS */}
+      
+        <div className="experence__cloud" data-aos="fade-left" data-aos-anchor=".experience__container"  data-aos-duration="1500">
+           <h3>Cloud Computing</h3>
+            <div className="experience__content">
+              {/* VAGRANT  */}
+              <article className="experience__details">
+                <BsPatchCheckFill className="experience__details-icon"/>
+                <div>
+                <h4>Vagrant</h4>
+                <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+               {/* LINUX  */}
+              <article className="experience__details">
+                <BsPatchCheckFill className="experience__details-icon"/>
+                <div>
+                <h4>Linux</h4>
+                <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+               {/* AWS  */}
+              <article className="experience__details">
+                <BsPatchCheckFill className="experience__details-icon"/>
+                <div>
+                <h4>AWS</h4>
+                <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+               {/* ANSCIBLE  */}
+              <article className="experience__details">
+                <BsPatchCheckFill className="experience__details-icon"/>
+                <div>
+                <h4>Anscible</h4>
+                <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+            </div>
+        </div>
       </div>
+    
     </section>
   )
 }

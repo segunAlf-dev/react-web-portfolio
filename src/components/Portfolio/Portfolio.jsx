@@ -5,34 +5,34 @@ const Portfolio = () => {
 
   const projects = [ 
     { 
-      name : "Starship",
-      deployedLink: "https://still-cliffs-68409.herokuapp.com/dashboard/app",
-      image: require('../../assets/starship.png'),
+      name : "Holiday-Challenge",
+      deployedLink: "https://phonie-hackathon-challenge.netlify.app/",
+      image: require('../../assets/Phonie-Hackth.png'),
       fadeDuration:'1000'
     },
     {
-      name : "weBlog",
-      deployedLink: "https://bloggersintech.herokuapp.com/login",
-      image: require('../../assets/weBlog.png'),
+      name : "nft-preview-card-component",
+      deployedLink: "https://nft-preview-card-component-chalnge.netlify.app/",
+      image: require('../../assets/nft-preview-card.png'),
       fadeDuration:'1100'
     },
     {
-      name:"BERG-Maps",
-      deployedLink: "https://for-timi.github.io/BERG-Maps/",
-      image: require('../../assets/berg.png'),
+      name:"redact-project-grp6",
+      deployedLink: "https://readact-hackathon-challenge.netlify.app/",
+      image: require('../../assets/Readact.png'),
       fadeDuration:'1200'
     },
     {
-      name: "AutoAuto",
-      deployedLink: "https://stormy-wildwood-35895.herokuapp.com/",
-      image: require('../../assets/autoAuto.png'),
+      name: "Four-card-picture-section",
+      deployedLink: "https://four-card-picture-section.netlify.app/",
+      image: require('../../assets/FourcardComp.png'),
       fadeDuration:'1300'
     },
     
     {
-      name:"AwesomeEditorPWA",
-      deployedLink: "https://salty-everglades-36024.herokuapp.com/",
-      image: require('../../assets/text-editor.png'),
+      name:"Mini-project-html-and-css",
+      deployedLink: "https://htm-and-css-mini-project.netlify.app/index.html#",
+      image: require('../../assets/LandingPage.png'),
       fadeDuration:'1400'
     },
     {
@@ -61,7 +61,7 @@ const Portfolio = () => {
 
               <div className="portfolio__item-cta">
                 <a className='btn' 
-                  href={`https://github.com/FOR-TIMI/${name}`}
+                  href={`https://github.com/segunAlf-dev/${name}`}
                   target='_blank'
                   rel="noreferrer"
                 >GitHub</a>
