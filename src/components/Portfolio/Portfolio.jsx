@@ -36,9 +36,9 @@ const Portfolio = () => {
       fadeDuration:'1400'
     },
     {
-      name:"react-portfolio",
-      deployedLink: "https://for-timi.github.io/react-portfolio/",
-      image: require('../../assets/portfolio.png'),
+      name:"DELIVERYCOG-Frontend-Project-Team1.1",
+      deployedLink: "https://deliverycog-stutern.web.app/",
+      image: require('../../assets/deliverycog.png'),
       fadeDuration:'1500'
     }
   ]
