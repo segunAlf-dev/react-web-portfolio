@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-web-portfolio/static/css/main.bca7078b.css",
-    "main.js": "/react-web-portfolio/static/js/main.a9fc60d8.js",
+    "main.css": "/react-web-portfolio/static/css/main.dfd5c457.css",
+    "main.js": "/react-web-portfolio/static/js/main.c483fddb.js",
     "static/media/Phonie-Hackth.png": "/react-web-portfolio/static/media/Phonie-Hackth.6ae745d27c6b2d72e22f.png",
     "static/media/LandingPage.png": "/react-web-portfolio/static/media/LandingPage.181b301c9cba9cf9325f.png",
     "static/media/Resume.pdf": "/react-web-portfolio/static/media/Resume.629e07035c2ffb97ea25.pdf",
@@ -11,11 +11,11 @@
     "static/media/sa.png": "/react-web-portfolio/static/media/sa.7b798ec08e9094d20b2a.png",
     "static/media/Readact.png": "/react-web-portfolio/static/media/Readact.bd3abc94dc370de8ce26.png",
     "index.html": "/react-web-portfolio/index.html",
-    "main.bca7078b.css.map": "/react-web-portfolio/static/css/main.bca7078b.css.map",
-    "main.a9fc60d8.js.map": "/react-web-portfolio/static/js/main.a9fc60d8.js.map"
+    "main.dfd5c457.css.map": "/react-web-portfolio/static/css/main.dfd5c457.css.map",
+    "main.c483fddb.js.map": "/react-web-portfolio/static/js/main.c483fddb.js.map"
   },
   "entrypoints": [
-    "static/css/main.bca7078b.css",
-    "static/js/main.a9fc60d8.js"
+    "static/css/main.dfd5c457.css",
+    "static/js/main.c483fddb.js"
   ]
 }
