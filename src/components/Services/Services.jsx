@@ -10,7 +10,7 @@ const Services = () => {
       <h2 data-aos="fade-up" data-aos-anchor="#services"  data-aos-duration='900'>My Services</h2>
       
       <div className="container services__container">
-        <article className="service" data-aos="fade-right" data-aos-anchor=".services__container"  data-aos-duration="900">
+        {/* <article className="service" data-aos="fade-right" data-aos-anchor=".services__container"  data-aos-duration="900">
 
           <div className="service__head">
             <h3>UI/UX Design</h3>
@@ -42,7 +42,7 @@ const Services = () => {
                <p>Continuously testing and iterating on the design to improve usability.</p>
              </li>
           </ul>
-        </article>
+        </article> */}
 
         {/* END OF UI/UX */}
 

@@ -6,7 +6,7 @@ import {MdOutlineEmail} from 'react-icons/md'
 import {BsInstagram, BsLinkedin} from 'react-icons/bs'
 import { FaTelegramPlane } from 'react-icons/fa';
 
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
@@ -16,7 +16,7 @@ const Contact = () => {
  const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('react-portfolio', 'template_2txujno', form.current, 'qgRkBbWYGTvoFK3At')
+    emailjs.sendForm('service_swexnzj', 'template_2txujno', form.current, 'wPwOTVH736Hruz_UB')
       .then((result) => {
           toast.success("Message sent to SegunAlf");
       }, (error) => {
@@ -25,7 +25,7 @@ const Contact = () => {
 
     e.target.reset();
   };
-
+ 
 
   return (
     <section id='contact'>
@@ -63,10 +63,11 @@ const Contact = () => {
         </div>
         
         {/* END OF CONTACT OPTIONS  */}
-        <form ref={form} onSubmit={sendEmail} >
+        <form  ref={form}  onSubmit={sendEmail} >
            <input type="text" name='name' placeholder='Full Name' data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='800' required/>
+            <input type="text" name='subject' placeholder='Subject' data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='850' required/>
            <input type="email" name='email' placeholder='Email' data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='950' required/>
-           <textarea name="message" placeholder='Message' rows="7" data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='1200' required></textarea>
+           <textarea name="message" placeholder='Write Your Message Here' rows="7" data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='1200' required></textarea>
            <button type='submit' className='btn btn-primary form__button' data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='1400'>Send Message <FaTelegramPlane className='send__message-icon'/></button>
         </form>
         
